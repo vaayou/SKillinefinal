@@ -1,0 +1,205 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFF2E1;
+    font-family: 'Poppins', sans-serif;    
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navi{
+    margin-left: 25rem;
+}
+.nav-item{
+    padding: 5px;
+}
+.nav-link{
+    margin-left: 2rem;
+    font-weight: bold;
+    color: black;
+}
+.btn{
+    font-size: 0.9rem;
+    margin: 8px;
+    text-align: center;
+    border-radius: 20px;
+    padding-right: 8px;
+    padding-left: 8px;
+
+}
+#btn2{
+    background-color: #F48C06;
+    color: white;
+}
+.girl{
+    height: 85vh;
+}
+.play{
+    height: 100px;
+
+}
+.content h5{
+    display: inline-block;
+
+
+}
+.content h1{
+    color: #2F327D;
+    font-weight: bold;
+}
+.clogo{
+    display: inline-block;
+    margin: 0px 25px;
+    justify-content: center;
+}
+.company{
+    text-align: center;
+}
+.content{
+    padding-top: 5rem;
+    
+}
+
+.aio{
+    text-align: center;
+}
+.box{
+    padding: 20px;
+    margin-right: auto;
+    margin-left: 50px;
+}
+.box h4{
+    margin-top: 20px;
+    color: #2F327D;
+}
+.box{
+    border-color: aqua;  
+    border-width: 2px;
+    box-shadow: 10px 10px 5px 7px rgba(230,227,230,0.51);
+
+}
+.wis{
+    margin-top: 50px;
+    text-align: center;
+}
+.wis h2{
+    color:#F48C06;
+}
+.rec1{
+    background-image: url("/images/Rectangle 19.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    width: 20vw;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 20px;
+}
+.rec2{
+    display: inline-block;
+    background-image: url("/images/Rectangle 21.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    width: 20vw;
+    margin: 10px;
+    border-radius: 20px;
+}
+.rec1 h6{
+    margin-top: 45px;
+    color: white;
+    
+}
+.rec2 h6{
+    margin-top: 45px;
+    color: white;
+}
+.teacher{
+    display: inline-block;
+    height: 40vh;
+    width: 30vw;
+    margin-left: 80px;
+}
+.group71{
+    width: 40vw;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 5px;
+}
+.blue{
+    color: #2F327D;
+}
+.color{
+    color: #F48C06;
+}
+i{
+    font-size: 2rem;
+    padding: 8px;
+}
+.group122{
+    height: 20vw;
+    margin-left: 225px;
+
+}
+.seemore{
+    margin-left: 50%;
+    margin-top: 20px;
+}
+.sec h5{
+    margin-left: 20px;
+}
+.group124{
+    height: 45vh;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    left: 30px;    
+
+}
+.classcontent{
+    padding: 20px;
+}
+.classma{
+    height: 50vh;
+}
+.classcontent{
+    color: #2F327D;
+    margin: 20px;
+    width: 35vw;
+    margin-left: 60px;
+    margin-top: 30px;
+    
+}
+.form-control{
+    width: 20vw;
+    
+}
+.form-signin{
+    margin-left: 50px;
+}
+.top{
+    padding: 10px;
+    margin: 5px;
+}
+.middle{
+    padding: 10px;
+    margin: 5px;
+}
+.bottom{
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer li{
+    margin: 0;
+    padding: 0;
+
+}
