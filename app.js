@@ -11,7 +11,7 @@ app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const api=process.env.API_KEY;
+const api=process.env.API;
 console.log(api);
 
 
