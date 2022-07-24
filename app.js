@@ -43,7 +43,7 @@ app.post("/", function (req, res) {
     url: "https://us10.api.mailchimp.com/3.0/lists/5377c079ce",
     method: "POST",
     headers: {
-      Authorization: "Pawan process.env.API",
+      "Authorization" : "Pawan process.env.API",
     },
     body: jsonData,
   };
