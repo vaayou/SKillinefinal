@@ -44,10 +44,10 @@ app.post("/", function (req, res) {
   
 
   let options = {
-    url: "https://us10.api.mailchimp.com/3.0/lists/5377c079ce", //5377c079ce
+    url: "https://us10.api.mailchimp.com/3.0/lists/5377c079ce",
     method: "POST",
     headers: {
-      "Authorization": "Pawan " + api ,
+      "Authorization": "Pawan: " + api ,
     },
     body: jsonData,
   };
@@ -75,5 +75,3 @@ app.listen(3000 || process.env.PORT, function () {
   console.log("server is running on port 3000");
 });
 
-
-// 5377c079ce
