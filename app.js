@@ -1,3 +1,4 @@
+//jshint esversion: 6
 const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
@@ -10,12 +11,16 @@ app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
+const api=process.env.API_KEY;
+console.log(api);
+
+
+
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
 app.post("/", function (req, res) {
-  console.log(req.body);
   const firstName = req.body.firstname;
   const lastName = req.body.lastname;
   const email = req.body.email;
@@ -40,10 +45,10 @@ app.post("/", function (req, res) {
   
 
   let options = {
-    url: "https://us10.api.mailchimp.com/3.0/lists/5377c079ce",
+    url: "https://us10.api.mailchimp.com/3.0/lists/5377c079ce", //5377c079ce
     method: "POST",
     headers: {
-      "Authorization" : "Pawan process.env.API",
+      "Authorization": "Pawan " + api ,
     },
     body: jsonData,
   };
@@ -67,6 +72,9 @@ app.post("/failure", function (req, res) {
   res.redirect("/");
 });
 
-app.listen(process.env.PORT, function () {
-  console.log("server is running on port PORT");
+app.listen(3000 || process.env.PORT, function () {
+  console.log("server is running on port 3000");
 });
+
+
+// 5377c079ce
