@@ -12,7 +12,7 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const api=process.env.API;
-console.log(api);
+
 
 
 
@@ -25,8 +25,7 @@ app.post("/", function (req, res) {
   const lastName = req.body.lastname;
   const email = req.body.email;
 
-  console.log(firstName, lastName, email);
-
+ 
   let data = {
     members: [
       {
@@ -41,7 +40,7 @@ app.post("/", function (req, res) {
   };
 
   let jsonData = JSON.stringify(data);
-  console.log(data);
+  
   
 
   let options = {
